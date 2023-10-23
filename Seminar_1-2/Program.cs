@@ -110,29 +110,29 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-Console.WriteLine(" Введите число ");
-string stringNumber = Console.ReadLine();
+// Console.WriteLine(" Введите число ");
+// string stringNumber = Console.ReadLine();
 
-int number;
-bool isNumber = int.TryParse (stringNumber, out number);
+// int number;
+// bool isNumber = int.TryParse (stringNumber, out number);
 
-if (isNumber)
-{
-    if ( number < 100 )
-    {
-        Console.WriteLine(" Третьей цифры нет !!! ");
-        return;
-    }
-    else 
-    {
-       int thirDigit = int.Parse(Convert.ToString(number)[2].ToString());
-        Console.WriteLine(thirDigit);
-    }
-}
-else
-{
-    Console.WriteLine(" В строчке присутствуют буквы !! ");
-}
+// if (isNumber)
+// {
+//     if ( number < 100 )
+//     {
+//         Console.WriteLine(" Третьей цифры нет !!! ");
+//         return;
+//     }
+//     else 
+//     {
+//        int thirDigit = int.Parse(Convert.ToString(number)[2].ToString());
+//         Console.WriteLine(thirDigit);
+//     }
+// }
+// else
+// {
+//     Console.WriteLine(" В строчке присутствуют буквы !! ");
+// }
 
 
 // Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, 
