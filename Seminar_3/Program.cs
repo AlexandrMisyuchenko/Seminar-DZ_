@@ -54,7 +54,7 @@ int x2= Convert.ToInt32(Console.ReadLine()) ;
 
 Console.Write("Введите y2: ");
 int y2 = Convert.ToInt32(Console.ReadLine()) ;
-// d = dintance (расстояние между 2 точками)
+// d = distance (расстояние между 2 точками)
 // AB = √(x1 - x2)2 + (y1 + y2)2
 // Math.Sqrt(25) = 5  извлечение корня
 // Math.Pow(число, степень )=> Math.Pow(2, 3)=> 2*2*2 = 8
