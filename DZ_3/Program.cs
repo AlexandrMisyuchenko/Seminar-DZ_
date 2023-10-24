@@ -2,12 +2,16 @@
 //который принимает на вход число (N) и выводит таблицу кубов
 //чисел от 1 до N (включительно) каждое  на новой строке.
 
-Console.Writelinr("Введите число:  ");
-int N = Convert.ToInt32(Console.ReadLine());
-for(int start = 1, start <= N,start++)
-{
-  Console.Writelinr($"{Math.Row(stsrt, 3 )}/t")
-}
+// Console.Write("N = ");
+// int N = Convert.ToInt32(Console.ReadLine());
+// for(int start = 1; start <= N; start++ )
+// { 
+//   Console.WriteLine($"{Math.Pow(start, 3 )}");
+// }
+
+
+
+
 
 //Внутри класса Answer напишите метод  DistanceBetweenPoints, 
 //который принимает на вход координаты двух точек pointA и pointB 
