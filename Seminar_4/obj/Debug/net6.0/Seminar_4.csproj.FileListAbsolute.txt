@@ -1,0 +1,15 @@
+C:\Users\Alexandr\Desktop\Geer Brains\Знакомство с языками програмирования С#\Seminar\Seminar_4\obj\Debug\net6.0\Seminar_4.csproj.AssemblyReference.cache
+C:\Users\Alexandr\Desktop\Geer Brains\Знакомство с языками програмирования С#\Seminar\Seminar_4\obj\Debug\net6.0\Seminar_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexandr\Desktop\Geer Brains\Знакомство с языками програмирования С#\Seminar\Seminar_4\obj\Debug\net6.0\Seminar_4.AssemblyInfoInputs.cache
+C:\Users\Alexandr\Desktop\Geer Brains\Знакомство с языками програмирования С#\Seminar\Seminar_4\obj\Debug\net6.0\Seminar_4.AssemblyInfo.cs
+C:\Users\Alexandr\Desktop\Geer Brains\Знакомство с языками програмирования С#\Seminar\Seminar_4\obj\Debug\net6.0\Seminar_4.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\Desktop\Geer Brains\Знакомство с языками програмирования С#\Seminar\Seminar_4\bin\Debug\net6.0\Seminar_4.exe
+C:\Users\Alexandr\Desktop\Geer Brains\Знакомство с языками програмирования С#\Seminar\Seminar_4\bin\Debug\net6.0\Seminar_4.deps.json
+C:\Users\Alexandr\Desktop\Geer Brains\Знакомство с языками програмирования С#\Seminar\Seminar_4\bin\Debug\net6.0\Seminar_4.runtimeconfig.json
+C:\Users\Alexandr\Desktop\Geer Brains\Знакомство с языками програмирования С#\Seminar\Seminar_4\bin\Debug\net6.0\Seminar_4.dll
+C:\Users\Alexandr\Desktop\Geer Brains\Знакомство с языками програмирования С#\Seminar\Seminar_4\bin\Debug\net6.0\Seminar_4.pdb
+C:\Users\Alexandr\Desktop\Geer Brains\Знакомство с языками програмирования С#\Seminar\Seminar_4\obj\Debug\net6.0\Seminar_4.dll
+C:\Users\Alexandr\Desktop\Geer Brains\Знакомство с языками програмирования С#\Seminar\Seminar_4\obj\Debug\net6.0\refint\Seminar_4.dll
+C:\Users\Alexandr\Desktop\Geer Brains\Знакомство с языками програмирования С#\Seminar\Seminar_4\obj\Debug\net6.0\Seminar_4.pdb
+C:\Users\Alexandr\Desktop\Geer Brains\Знакомство с языками програмирования С#\Seminar\Seminar_4\obj\Debug\net6.0\Seminar_4.genruntimeconfig.cache
+C:\Users\Alexandr\Desktop\Geer Brains\Знакомство с языками програмирования С#\Seminar\Seminar_4\obj\Debug\net6.0\ref\Seminar_4.dll
