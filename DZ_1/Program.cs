@@ -6,10 +6,10 @@
 // }
 
 
-// Console.Write("Введите число:  ");
-// int number = Convert.ToInt32(Console.ReadLine());
-// int result = number * number;
-// Console.WriteLine("Квадрат от числа " + number + " = " + result);
+Console.Write("Введите число:  ");
+int number = Convert.ToInt32(Console.ReadLine());
+int result = number * number;
+Console.WriteLine("Квадрат от числа " + number + " = " + result);
 
 
 // Напишите программу, которая будет 
