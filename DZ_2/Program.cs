@@ -26,7 +26,7 @@
 // string stringNumber = Console.ReadLine();
 // int number;
 // bool isNumber = int.TryParse(stringNumber, out number);
-// if (number < 100)
+// if (number <= 1000)
 // {
 //     Console.Write(" Число не содержит третьей цифры или в значении присутствуют буквы!!");
 // }
