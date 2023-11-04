@@ -74,23 +74,72 @@
 // double d = Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 -y2, 2) + Math.Pow(z1 - z2, 2));
 // Console.WriteLine($" d = {Math.Round(d , 2)}");
 
-// // Внутри класса Answer напишите метод IsPalindrome, 
+
+
+// Внутри класса Answer напишите метод ShowCube, 
+// который принимает на вход число (N) и выводит таблицу кубов чисел 
+// от 1 до N (включительно) каждое на новой строке.
+// N = 3 
+// 1
+// 8
+// 27
+
+// Console.Write("Введите число N: ");
+// int N = Convert.ToInt32(Console.ReadLine());
+// for ( int firstNumber = 1; firstNumber <= N; firstNumber++ )
+// {
+//     Console.Write($"{Math.Pow(firstNumber, 3)} \t");
+// }
+
+
+// /Внутри класса Answer напишите метод IsPalindrome, 
 // который принимает на вход пятизначное число number и проверяет,
 //  является ли оно палиндромом.
-// // Метод должен проверить является ли число пятизначным, 
+//  Метод должен проверить является ли число пятизначным, 
 // в противном случае - вывести Число не пятизначное и False в следующей строке.
-// // Для остальных чисел вернуть True или False.
+//  Для остальных чисел вернуть True или False.
+// 14212 -> False
+// 12821 -> True
+// 234322 -> Число не пятизначное
 
-Console.WriteLine("Введите число:  ");
-int number = Convert.ToInt32(Console.ReadLine());
 
-if ( number < 10000 || number > 99999)
-{
-    Console.WriteLine("Число не пятизначное ");
-    Console.WriteLine("False");
-}
-else 
-Console.WriteLine(number);
+// Console.Write(" Введите пятичзначное число: ");
+// int number;
+// string stringNumber = Console.ReadLine();
+// bool siNumber = int.TryParse(stringNumber, out number );
+// if (siNumber)
+// {
+//      if(number < 10000 || number > 99999)
+//     {  
+//     Console.WriteLine(" Число не пятизначное ");
+//     }
+// else if (stringNumber[0] == stringNumber[4] && stringNumber[1] == stringNumber[3])     
+//     {
+//     Console.WriteLine($" {stringNumber} => True");
+//     }
+//     else
+//     {
+//     Console.WriteLine($" {stringNumber} => False");
+//     }
+//     }
+// else 
+// {
+//     Console.WriteLine(" Число содержит символы!");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
