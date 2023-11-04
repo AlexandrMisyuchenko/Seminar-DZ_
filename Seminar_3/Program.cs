@@ -43,29 +43,41 @@
 // x1 = 3, y1 = 6; x2 = 2, y2 = 1;
 // A (7,-5); B (1,-1) -> 7,21
 
-Console.Write("Введите x1: ");
-int x1 = Convert.ToInt32(Console.ReadLine()) ;
+// Console.Write("Введите x1: ");
+// int x1 = Convert.ToInt32(Console.ReadLine()) ;
 
-Console.Write("Введите y1: ");
-int y1 = Convert.ToInt32(Console.ReadLine()) ;
+// Console.Write("Введите y1: ");
+// int y1 = Convert.ToInt32(Console.ReadLine()) ;
 
-Console.Write("Введите x1: ");
-int x2= Convert.ToInt32(Console.ReadLine()) ;
+// Console.Write("Введите x1: ");
+// int x2= Convert.ToInt32(Console.ReadLine()) ;
 
-Console.Write("Введите y1: ");
-int y2 = Convert.ToInt32(Console.ReadLine()) ;
+// Console.Write("Введите y1: ");
+// int y2 = Convert.ToInt32(Console.ReadLine()) ;
 
-// // d = distance (расстояние между 2 точками)
-// // AB = √(x1 - x2)2 + (y1 + y2)2
-// // Math.Sqrt(25) = 5  извлечение корня
-// // Math.Pow(число, степень )=> Math.Pow(2, 3)=> 2*2*2 = 8
-double d = Math.Sqrt ((Math.Pow(x1 - x2, 2)) + (Math.Pow(y1 - y2, 2)));
-// // Math.Round(число, кол-во знаков): Math.Round(1.275, 2)=> 1.27
- Console.Write($"d = {Math.Round(d, 2)}");
+// // // d = distance (расстояние между 2 точками)
+// // // AB = √(x1 - x2)2 + (y1 + y2)2
+// // // Math.Sqrt(25) = 5  извлечение корня
+// // // Math.Pow(число, степень )=> Math.Pow(2, 3)=> 2*2*2 = 8
+// double d = Math.Sqrt ((Math.Pow(x1 - x2, 2)) + (Math.Pow(y1 - y2, 2)));
+// // // Math.Round(число, кол-во знаков): Math.Round(1.275, 2)=> 1.27
+//  Console.Write($"d = {Math.Round(d, 2)}");
 // // d до двух знаков после запятой
 
 
+// Напишите программу, которая принимает
+// на вход число (N) и выдаёт таблицу квадратов чисел
+// от 1 до N.
 
+// 5 -> 1, 4, 9, 16, 25.
+// 2 -> 1,4
+
+// Console.Write("Введите число N: ");
+// int N = Convert.ToInt32(Console.ReadLine());
+// for ( int firstNumber = 1; firstNumber <= N; firstNumber++ )
+// {
+//     Console.Write($"{Math.Pow(firstNumber, 2)} \t");
+// }
 
 
 
