@@ -65,4 +65,4 @@ int GetSum(int A)
 }
  Console.WriteLine(GetSum(8));
 
-остановился на 1.05м
+//остановился на 1.05м
