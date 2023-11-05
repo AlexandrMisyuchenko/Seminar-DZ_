@@ -51,9 +51,10 @@
 // 4 -> 10 
 // 8 -> 36
 
-Console.WriteLine("Введите число А: ");
+Console.Write("Введите число А: ");
 int limit = Convert.ToInt32(Console.ReadLine());
 // limit  - до этого числа идём;
+Console.WriteLine($"Сумма чисел от 1 до {limit} = {GetSum(limit)}");
 int GetSum(int A)
 {
     int sum =0; // переменная для хранения суммы
@@ -63,6 +64,13 @@ int GetSum(int A)
     }
     return sum;
 }
- Console.WriteLine(GetSum(8));
 
-//остановился на 1.05м
+
+// Задача 26: Напишите программу, которая принимает
+// на вход число и выдаёт количество цифр в числе.
+// 456 -> 3
+// 78 -> 2
+// 89126 -> 5
+
+
+ 
