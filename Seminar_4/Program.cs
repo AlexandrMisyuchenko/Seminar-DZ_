@@ -40,7 +40,7 @@
 // // first=2, second=5, char= +;
 // Console.WriteLine(Calculate(100, 35, '*'  ));
 // // first=2, second=5, char= +;
-// Console.WriteLine(Calculate(100, 25, '/'));
+// Console.WriteLine(Calculate(2, 3, '/'));
 // // first=2, second=5, char= +;
 
 
@@ -51,26 +51,22 @@
 // 4 -> 10 
 // 8 -> 36
 
-Console.Write("Введите число А: ");
-int limit = Convert.ToInt32(Console.ReadLine());
-// limit  - до этого числа идём;
-Console.WriteLine($"Сумма чисел от 1 до {limit} = {GetSum(limit)}");
-int GetSum(int A)
-{
-    int sum =0; // переменная для хранения суммы
-    for (int i = 1; i <= A; i++)
-    {
-        sum += i;
-    }
-    return sum;
-}
-
+// Console.Write("Введите число А: ");
+// int limit = Convert.ToInt32(Console.ReadLine());
+// // limit  - до этого числа идём;
+// Console.WriteLine($"Сумма чисел от 1 до {limit} = {GetSum(limit)}");
+// int GetSum(int A) // Get-получить
+// {
+//     int sum =0; // переменная для хранения суммы
+//     for (int i = 1; i <= A; i++)
+//     {
+//         sum += i;
+//     }
+//     return sum;
+// 
 
 // Задача 26: Напишите программу, которая принимает
 // на вход число и выдаёт количество цифр в числе.
 // 456 -> 3
 // 78 -> 2
 // 89126 -> 5
-
-
- 
