@@ -63,10 +63,62 @@
 //         sum += i;
 //     }
 //     return sum;
-// 
+// }
+
 
 // Задача 26: Напишите программу, которая принимает
 // на вход число и выдаёт количество цифр в числе.
 // 456 -> 3
 // 78 -> 2
 // 89126 -> 5
+
+// Задача 26: Напишите программу, которая принимает
+// на вход число и выдаёт количество цифр в числе.
+// 456 -> 3
+// 78 -> 2
+// 89126 -> 456
+
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// Console.Write($"Количечтво цифр в числе {number} => {GetCountNumber(number)}");
+// int GetCountNumber (int num)
+// {
+//     if (num == 0)
+//   {
+//     return  1;
+//   }
+//   else
+//    {
+//         int count = 0;
+//         while( num > 0)
+//         {
+//             count++;
+//             num /= 10;
+//         }
+//         return count;
+//     }
+// }
+
+// Задача 30: Напишите программу, которая
+// выводит массив из 8 элементов, заполненный
+// нулями и единицами в случайном порядке.
+// [1,0,1,1,0,1,0,0]
+int[] result = GetBinaryArray (8);// Получили массив на 8 элементов
+Console.WriteLine($"[{String.Join("; ", result)}]");
+int[] GetBinaryArray (int size)
+{
+    // тип данных [] имя_масива  = new int[размер]
+    int[] array = new int [size];
+    // Изначально массив заполнен НУЛЯМИ
+    for ( int i = 0; i < array.Length; i++)
+    // array.Length = size
+    {
+        array[i] = new Random().Next(0, 2);
+        // кладём в каждую переменную [i] рандомное число
+        // Next(2) => Next(0, 2)
+    }
+    return array;
+}
+
+
