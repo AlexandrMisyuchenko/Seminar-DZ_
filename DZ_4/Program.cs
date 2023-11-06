@@ -36,3 +36,22 @@
 // 452 -> 11
 // 82 -> 10
 // 9012 -> 12
+
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// Console.Write($"Сумма всех цифр в числе {number} => {SumNunber(number)}");
+// int SumNunber ( int num)
+// {
+//   int sum = 0;
+//   while( num > 0 )
+//   {
+//   sum = sum + num % 10;
+//   num /= 10;
+//   }
+//   return sum;
+// }
+
+
+// Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+// 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
+// 6, 1, 33 -> [6, 1, 33]
