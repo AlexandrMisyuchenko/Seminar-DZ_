@@ -104,7 +104,8 @@
 // выводит массив из 8 элементов, заполненный
 // нулями и единицами в случайном порядке.
 // [1,0,1,1,0,1,0,0]
-int[] result = GetBinaryArray (8);// Получили массив на 8 элементов
+
+int[] result = GetBinaryArray (15);// Получили массив на 8 элементов
 Console.WriteLine($"[{String.Join("; ", result)}]");
 int[] GetBinaryArray (int size)
 {
@@ -114,7 +115,7 @@ int[] GetBinaryArray (int size)
     for ( int i = 0; i < array.Length; i++)
     // array.Length = size
     {
-        array[i] = new Random().Next(0, 2);
+        array[i] = new Random().Next(14, 89);
         // кладём в каждую переменную [i] рандомное число
         // Next(2) => Next(0, 2)
     }
